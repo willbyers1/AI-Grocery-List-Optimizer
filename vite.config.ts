@@ -5,8 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/ai-grocery-list-optimizer/',
   plugins: [react(), tailwindcss()],
+  base: '/ai-grocery-list-optimizer/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
